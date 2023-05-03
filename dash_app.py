@@ -6,6 +6,7 @@ from navbar import create_navbar
 
 TITLE = "Dash Visualization"
 NAV = create_navbar()
+# You can import icons but I wanted to keep the implementation as simple as possible
 # FA = "https://use.fontawesome.com/releases/v6.2.1/css/all.css"
 
 
@@ -41,7 +42,7 @@ dash_app = dash.Dash(
 </html>
 '''
 
-dash_app.layout = dcc.Loading(  # <- Wrap App with Loading Component
+dash_app.layout = dcc.Loading(
     id='loading_page_content',
     children=[
         html.Div(
