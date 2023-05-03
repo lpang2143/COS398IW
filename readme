@@ -1,0 +1,12 @@
+Before running the app ensure that you have the following installed:
+Python 3.x or higher
+Dash
+
+To install Python, google it.
+
+To install dash, call the following:
+pip install dash
+
+You're all set up!
+Run the app by calling the following:
+python dash_app.py
